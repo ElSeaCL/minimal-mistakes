@@ -2,11 +2,33 @@
 main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+    description: "Guia rapida con todo lo que debes saber es este sitio"
+  - title: "About"
+    url: https://mmistakes.github.io/minimal-mistakes/about/
+    description: "Información acerca de mí"
+  - title: "Posts"
+    url: /year-archive/
+  - title: "Collections"
+    url: /collection-archive/
+    description: "Grupo de post por categoría"
+  - title: "Sitemap"
+    url: /sitemap/
+    description: "Mapa del sitio"
+  - title: "AlgoAlgo"
+    description: "Sección de mentira"
+    url: /algo_algo/
+
+docs:
+  - title: Getting Started
+    children:
+      - title: "Quick start guide"
+        url: /docs/quick-start/
+      - title: "Structure"
+        url: /docs/structure/
+ 
+  - title: Custumization
+    children:
+      - title: "Configuration"
+        url: /docs/configuration/
+      - title: "Navigation"
+        url: /docs/navigation/
